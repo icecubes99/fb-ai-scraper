@@ -1,0 +1,28 @@
+# For Gemini API integration
+google-generativeai
+
+# For browser automation
+playwright
+
+# For environment variable management
+python-dotenv
+
+# For HTTP requests
+requests
+
+# For HTML parsing
+beautifulsoup4
+
+# For data manipulation
+pandas
+
+# For progress tracking
+tqdm
+
+# For asynchronous HTTP requests
+aiohttp
+
+# For retry logic
+tenacity
+
+# Note: Run 'playwright install' after installing requirements to install browsers

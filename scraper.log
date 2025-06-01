@@ -1,0 +1,73 @@
+2025-06-01 13:32:28,458 - main - INFO - Initializing scraper components
+2025-06-01 13:32:28,458 - scraper.pattern_store - INFO - No pattern file found at data/patterns/facebook_patterns.json, starting with empty patterns
+2025-06-01 13:32:28,458 - main - INFO - Scraping comments from https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl
+2025-06-01 13:32:28,458 - scraper.adaptive_scraper - INFO - Scraping comments from https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl
+2025-06-01 13:32:28,458 - scraper.data_fetcher - INFO - Fetching https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl with aiohttp
+2025-06-01 13:32:28,817 - scraper.data_fetcher - ERROR - Error fetching https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl: 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl'
+2025-06-01 13:32:28,817 - scraper.adaptive_scraper - INFO - Requests method failed, trying with Playwright
+2025-06-01 13:32:28,817 - scraper.auth_manager - INFO - Initializing browser session
+2025-06-01 13:33:36,122 - main - INFO - Initializing scraper components
+2025-06-01 13:33:36,122 - scraper.pattern_store - INFO - No pattern file found at data/patterns/facebook_patterns.json, starting with empty patterns
+2025-06-01 13:33:36,122 - main - INFO - Scraping comments from https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl
+2025-06-01 13:33:36,122 - scraper.adaptive_scraper - INFO - Scraping comments from https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl
+2025-06-01 13:33:36,122 - scraper.data_fetcher - INFO - Fetching https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl with aiohttp
+2025-06-01 13:33:36,471 - scraper.data_fetcher - ERROR - Error fetching https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl: 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl'
+2025-06-01 13:33:36,472 - scraper.adaptive_scraper - INFO - Requests method failed, trying with Playwright
+2025-06-01 13:33:36,472 - scraper.auth_manager - INFO - Initializing browser session
+2025-06-01 13:33:42,910 - scraper.auth_manager - INFO - Browser session initialized successfully
+2025-06-01 13:33:42,911 - scraper.data_fetcher - INFO - Fetching https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl with Playwright
+2025-06-01 13:33:45,267 - scraper.data_fetcher - INFO - Scrolling to load more comments
+2025-06-01 13:33:51,806 - scraper.data_fetcher - INFO - Successfully fetched https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl with Playwright
+2025-06-01 13:33:52,290 - scraper.auth_manager - INFO - Browser session closed
+2025-06-01 13:33:52,290 - scraper.pattern_store - INFO - Found 0 matching patterns for https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl
+2025-06-01 13:33:52,290 - scraper.adaptive_scraper - INFO - No matching patterns found
+2025-06-01 13:33:52,291 - scraper.adaptive_scraper - INFO - Existing patterns insufficient, using Gemini for analysis
+2025-06-01 13:33:52,291 - scraper.gemini_processor - INFO - Analyzing page structure with Gemini
+2025-06-01 13:34:03,690 - scraper.gemini_processor - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-06-01 13:34:03,691 - scraper.adaptive_scraper - INFO - Successfully scraped 0 comments from https://www.facebook.com/MetaAI/posts/pfbid02Lq3ViLCQGgzZLGTJ9vNVuHHsUBRgvHjiKDNvBVXFsW5Tjs5zrQQPQVFKfUQZZGRrl
+2025-06-01 13:34:03,694 - scraper.adaptive_scraper - INFO - Saved comments to data/output/facebook_comments_20250601_133403.json
+2025-06-01 13:34:03,694 - main - INFO - Scraped 0 comments, saved to data/output/facebook_comments_20250601_133403.json
+2025-06-01 13:34:03,694 - main - INFO - Scraping completed successfully
